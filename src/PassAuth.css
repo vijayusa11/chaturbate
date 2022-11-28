@@ -1,0 +1,55 @@
+.passauth {
+    background-color: #D4D4D4;
+}
+
+.content2 { 
+    background-color: #D4D4D4;
+    padding: 11px 0 17px;
+    overflow: hidden;
+}
+
+.content_body {
+    padding: 0 19px 0 32px;
+}
+
+.content_body > h1 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #004B5E;
+    margin: 0 0 14px;
+}
+
+.content_body > p {
+    font-style: 14px;
+    font-weight: 450;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.content_body > p > strong {
+    font-weight: bold;
+}
+
+.content_body > p > span {
+    color: #1682d4 ;
+}
+
+.guest > .user {
+    padding: 5px 0 5px 5px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.guest > .add {
+    padding: 5px;
+    background-color: transparent;
+    outline: none;
+}
+
+.add-guest-error {
+    font-weight: 500;
+    color: #ea7373;
+}

@@ -1,0 +1,127 @@
+.main {
+    background-color: #D4D4D4;
+    width: 100%;
+    border-bottom: 4px solid #FF8400;
+}
+
+.hashtag_ticker {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding: 10px 20px;
+}
+
+.hashtag__leftTicker {
+    display: flex;
+    overflow-x: scroll;
+    flex: 0.8;
+    color: #0A5B83;
+}
+
+.hashtag__leftTicker > h1 {
+    font-size: 14px;
+    font-weight: 400;
+    margin-right: 10px;
+}
+
+.hashtag__leftTicker > h1:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.hashtag__leftTicker::-webkit-scrollbar {
+    display: none;
+}
+
+.hashtag__space {
+    flex: 0.12;
+}
+
+.hashtag__righttTicker {
+    flex: 0.08;
+    color: #0A5B83;
+}
+
+.hashtag__righttTicker > h2 {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.hashtag__righttTicker > h2:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.rooms {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+   
+}
+
+.paging {
+    display: flex;
+    flex: 1;
+    list-style: none;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    overflow: hidden;
+    height: 22px;
+    text-align: center;
+    justify-content: center;
+}
+
+.pageNumber {
+    display: flex;
+    align-items: center;
+    place-items: center;
+}
+
+.pageNumber > .image {
+    display: flex;
+    height: 10px;
+    object-fit: cover;
+    padding: 8px;
+    border: 1px solid 1px solid #f1d2bf;
+    color: #dc5500;
+    background-color: #fceadb;
+}
+
+.pageNumber > .image:hover {
+    cursor: pointer;
+    border: 2px solid #ededed;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.pageNumber > .number {
+    display: flex;
+    font-size: 12px;
+    padding: 1.7px 6px;
+    margin-right: 10px;
+    color: #dc5500;
+    font-weight: 700;
+    background-color: #ededed;
+}
+
+.pageNumber > .number:hover {
+    color: #6d6d6d;
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.papa {
+    margin-right: 10px;
+}
+
+.space {
+    margin-right: 3px;
+}
+
+.nospace, .space {
+    margin-right: 3px !important;
+}

@@ -1,0 +1,15 @@
+.ie-support-notice > p {
+    background-color: #ffffd3;
+    padding: 15px;
+    font-weight: 700;
+    border: 1px solid #ccc;
+    margin: 5px 0;
+    text-align: center;
+    font: 1.05em ubuntumedium,Arial,Helvetica,sans-serif;
+}
+
+.ie-support-notice > p > span {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #0A5B83;
+}

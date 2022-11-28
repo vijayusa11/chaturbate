@@ -1,0 +1,76 @@
+.body {
+    background-color: #D4D4D4;
+    width: 100%;
+}
+
+.top__section {
+    background-color: #E3E3E3;
+    padding: 8px 19px 0 15px;
+    height: 1%;
+    font: 1.25em/1.133em 'UbuntuMedium',Arial,Helvetica,sans-serif;
+}
+
+.w_intro > h1 {
+    margin: 0 0 14px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.body__bar {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(68, 54, 54);
+}
+
+.body__list {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex: 0.8;
+    align-items: center;  
+     
+}
+
+.body__list > h2 {
+    color: rgb(57, 172, 211);
+    background-color: #D4D4D4;
+    font: UbuntuMedium, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-right: 5px;
+    padding: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-left: 1px solid rgb(68, 54, 54);
+    border-right: 1px solid rgb(68, 54, 54);
+    border-top: 1px solid rgb(68, 54, 54);
+}
+
+.body__list > h2:hover {
+    background-color: #E3E3E3;
+    cursor: pointer;
+}
+
+.body__option {
+    display: flex;
+    align-items: center;
+    flex: 0.1;
+    font-size: 12px;
+    color: rgb(49, 122, 146);
+}
+
+.body__option > .MuiSvgIcon-root {
+    font-size: large;
+    margin-right: 15px;
+}
+
+.body__option:hover {
+    cursor: pointer;
+}
+
+.body__option > h3:hover {
+    text-decoration: underline;
+}
+
+.body__space {
+    flex:0.1;
+}

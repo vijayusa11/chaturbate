@@ -1,0 +1,116 @@
+.roomrow {
+    padding-left: 20px;
+    background-color: #D4D4D4;
+}
+
+.videoCard__info {
+    width: 180px;
+    background: #f0f1f1;
+    float: left;
+    position: relative;
+    margin: 0 7px 7px 0;
+    border: 1px solid #acacac;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    max-height: 222px !important;
+    overflow: hidden;
+}
+
+.videoCard__thumbnail > img {
+    position: relative;
+    width: 180px;
+    aspect-ratio: auto 180 / 101;
+    max-height: 101px;
+    cursor: pointer;
+    object-fit: cover;
+}
+
+.videoCard__padding {
+    padding: 8px;
+}
+
+.videoCard__details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.videoCard__details > h1:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.videoCard__ageImage > h2 {
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 5px;
+    color: #707070;
+}
+
+.videoCard__ageImage {
+    display: flex;
+    align-items: center;
+}
+
+.videoCard__details > h1 {
+    color: #0a5a83;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.videoCard__descriptioon {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 11px;
+    line-height: 16px;
+    width: 168px;
+    height: 32px;
+    overflow: hidden;
+    color: #000;
+}
+
+.videoCard__hrs {
+    display: flex;
+    align-items: center;
+}
+
+.videoCard__hrs > img {
+    height: 16px;
+    object-fit: contain;
+    margin-right: 8px;
+}
+
+.videoCard__hrs > h3 {
+    font-size: 12px;
+    font-weight: 500;
+    color: #707070;
+}
+
+.thumbnail_label {
+    background-color: #ED7E53;
+    position: absolute;
+    top: 85px;
+    right: 3px;
+    padding: 1px 3px;
+    text-align: center;
+    overflow: hidden;
+    color: black;
+    font: 10px ubunturegular,Arial,Helvetica,sans-serif;
+    font-weight: 500;
+}
+
+.videoCard__star {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+    overflow: hidden;
+    color: gray !important;
+    font-size: small;
+}
+
+.videoCard__star:hover {
+    opacity: 0.5;
+}
